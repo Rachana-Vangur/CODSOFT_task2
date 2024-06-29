@@ -4,12 +4,9 @@
     
     color: #fefefe;
     font-family: 'Roboto';
-    /* removed
-    overflow-x: auto; */
 }
 body{
     background-color: #15171C;
-    /* added */
     overflow-x: hidden;
 }
 
@@ -38,22 +35,6 @@ nav ul li a{
     text-decoration: none;
     
 }
-/* a::after{
-    background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
- a:hover::after{
-    width: 100%;
-    left: 0;
-} */
 main{
     height: 100vh;
 }
@@ -100,10 +81,7 @@ main{
     height: 200px;
     width: 550px;
     margin-top: 100px;
-    /* margin-top: 120px; */
-    /* margin-left: 40px; */
     border-radius: 10px;
-    /* border: 4px solid #0057FF; */
 }
 #buy-now, #view-all{
     height: 50px;
@@ -133,39 +111,18 @@ button:hover{
     height: 100vh;
     
     overflow-y: hidden;
-    /* margin-top: 60px; */
 
 }
-/* .features-desc p{
-    padding: 60px;
-} */
 .features-desc{
     display: flex;
     justify-content: space-between;
 }
 #features-image{
     align-self: right;
-    
-    /* max-width: 100%; */
 }
-/* #features-image{
-    height: 550px;
-    width: 2390px;
-    align-self: right;
-    margin-top: 60px;
-    margin-left: 499px;
-
-    /* clip-path: polygon(16% 24%, 70% 20%, 70% 50%, 70% 85%, 16% 85%); */
-
-    /* padding-right: 0px; 
-} 
-*/
 
 .features-desc div ul{
     list-style: none;
-    
-    
-
 }
 .feature-box{
     overflow: hidden;
@@ -184,13 +141,11 @@ button:hover{
     transform: translate(0, -15px);
 }
 .feature-box h4, .feature-box p{
-    /* background-color: #24272D; */
     background-color: inherit;
 
 
 }
 .feature-box:hover > h4{
-    /* background-color: #0057FF; */
     background-color: inherit;
 
 }
@@ -210,7 +165,6 @@ button:hover{
     justify-content: center;
 }
 .switch-div{
-    /* transition: box-shadow .3s ease; */
     transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
 
     
@@ -282,7 +236,6 @@ button:hover{
       }
 
       .main-image {
-        /* position: absolute; */
         justify-content: center;
         height: 40%;
         width: 80%;
